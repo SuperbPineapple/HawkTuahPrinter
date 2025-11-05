@@ -28,4 +28,3 @@ namespace HawkTuahPrinter
         }
     }
 }
-// how the fuck do you push??
