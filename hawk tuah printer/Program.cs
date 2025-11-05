@@ -3,9 +3,9 @@
 namespace HawkTuahPrinter
 {
 
-    class HawkTuahPrinter
+    public class HawkTuahPrinter
     {
-        static void Main()
+        public static void Main()
         {
             bool hawktuah = true;
             while (hawktuah == true)
@@ -14,7 +14,7 @@ namespace HawkTuahPrinter
                 int milliseconds = 2000;
                 Thread.Sleep(milliseconds);
                 // random from https://blog.newtum.com/csharp-random-number-generator-program/
-                Random randvalue = new Random();
+                var randvalue = new Random();
                 int hawkint = randvalue.Next(1, 101);
                 if (hawkint > 45)
                 {
