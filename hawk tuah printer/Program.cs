@@ -14,9 +14,9 @@ namespace HawkTuahPrinter
                 int milliseconds = 2000;
                 Thread.Sleep(milliseconds);
                 // random from https://blog.newtum.com/csharp-random-number-generator-program/
-                Random randy = new Random();
-                int nujbe = randy.Next(1, 101);
-                if (nujbe > 45)
+                Random randvalue = new Random();
+                int hawkint = randvalue.Next(1, 101);
+                if (hawkint > 45)
                 {
                     Console.WriteLine("Hawk Tuah!");
                 }
@@ -28,3 +28,4 @@ namespace HawkTuahPrinter
         }
     }
 }
+// how the fuck do you push??
